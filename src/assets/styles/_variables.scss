@@ -1,8 +1,34 @@
 @use "sass:color";
 
-$font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-  "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
-  "Segoe UI Symbol";
+$base-font-size: 16px;
+
+$font-titles: "Orbitron", serif;
+$font-family-sans-serif: poppins, -apple-system, BlinkMacSystemFont, "Segoe UI",
+  Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
+  "Segoe UI Emoji", "Segoe UI Symbol";
 $font-family-serif: "Georgia", "Times New Roman", serif;
 
+$colors: (
+  "medium": #606c38,
+  "dark": #283618,
+  "light": #fefae0,
+  "major": #dda15e,
+  "minor": #bc6c25,
+  "danger": #81a28b,
+);
+
+// Medios
 $mqMinWidth: 420px;
+$mqMedWidth: 768px;
+
+@mixin respond-to($breakpoint) {
+  @if $breakpoint == "small" {
+    @media (max-width: $mqMinWidth) {
+      @content;
+    }
+  } @else if $breakpoint == "medium" {
+    @media (max-width: $mqMedWidth) {
+      @content;
+    }
+  }
+}
