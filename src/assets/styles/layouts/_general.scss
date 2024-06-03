@@ -1,12 +1,10 @@
 body {
-  font-family: $font-family-sans-serif;
-  font-size: $base-font-size;
+  @apply font-sans text-base;
 }
 
 h1,
 h2,
 h3,
 h4 {
-  font-family: $font-titles;
-  text-align: center;
+  @apply font-titles text-center;
 }

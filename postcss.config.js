@@ -1,7 +1,7 @@
 module.exports = {
-  plugins: {
-    tailwindcss: {
-      config: "./tailwind.config.js", // Path to your Tailwind CSS config file
-    },
-  },
+  plugins: [
+    require("postcss-import"),
+    require("tailwindcss")("./tailwind.config.js"), // Asegúrate de que la ruta sea correcta
+    require("autoprefixer"),
+  ],
 };
