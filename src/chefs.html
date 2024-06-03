@@ -19,94 +19,35 @@
 
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         <!-- Card 1 -->
-        <div class="bg-white rounded-lg shadow-md overflow-hidden">
-          <img
-            src="./assets/images/nothing.jpg"
-            alt="Card Image"
-            class="w-full h-64 object-cover"
-          />
-          <div class="p-4">
-            <h2 class="text-2xl font-semibold text-dark">Chef One</h2>
-            <p class="text-gray-600 mt-2">
-              Far far awaw, behind the word mountains, far from the countries
-              Vokalia and Consonantia
-            </p>
-          </div>
-        </div>
+        <include
+          src="./views/components/card.html"
+          locals='{"image": "./assets/images/nothing.jpg", "title": "Chef One", "description": "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia"}'
+        ></include>
         <!-- Card 2 -->
-        <div class="bg-white rounded-lg shadow-md overflow-hidden">
-          <img
-            src="./assets/images/nothing.jpg"
-            alt="Card Image"
-            class="w-full h-64 object-cover"
-          />
-          <div class="p-4">
-            <h2 class="text-2xl font-semibold text-dark">Chef Two</h2>
-            <p class="text-gray-600 mt-2">
-              Separated they live in Bookmarksgrove right at the coart of the
-              Semantics
-            </p>
-          </div>
-        </div>
+        <include
+          src="./views/components/card.html"
+          locals='{"image": "./assets/images/nothing.jpg", "title": "Chef Two", "description": "Separated they live in Bookmarksgrove right at the coart of the Semantics"}'
+        ></include>
         <!-- Card 3 -->
-        <div class="bg-white rounded-lg shadow-md overflow-hidden">
-          <img
-            src="./assets/images/nothing.jpg"
-            alt="Card Image"
-            class="w-full h-64 object-cover"
-          />
-          <div class="p-4">
-            <h2 class="text-2xl font-semibold text-dark">Chef Three</h2>
-            <p class="text-gray-600 mt-2">
-              Asmall river named Duden flows by their place and supplies it
-            </p>
-          </div>
-        </div>
+        <include
+          src="./views/components/card.html"
+          locals='{"image": "./assets/images/nothing.jpg", "title": "Chef Three", "description": "A small river named Duden flows by their place and supplies it"}'
+        ></include>
         <!-- Card 4 -->
-        <div class="bg-white rounded-lg shadow-md overflow-hidden">
-          <img
-            src="./assets/images/nothing.jpg"
-            alt="Card Image"
-            class="w-full h-64 object-cover"
-          />
-          <div class="p-4">
-            <h2 class="text-2xl font-semibold text-dark">Chef Four</h2>
-            <p class="text-gray-600 mt-2">
-              It is a paradisematic country, in with roasted parts of sentences
-              fly into your mounth
-            </p>
-          </div>
-        </div>
+        <include
+          src="./views/components/card.html"
+          locals='{"image": "./assets/images/nothing.jpg", "title": "Chef Four", "description": "It is a paradisematic country, in which roasted parts of sentences fly into your mouth"}'
+        ></include>
         <!-- Card 5 -->
-        <div class="bg-white rounded-lg shadow-md overflow-hidden">
-          <img
-            src="./assets/images/nothing.jpg"
-            alt="Card Image"
-            class="w-full h-64 object-cover"
-          />
-          <div class="p-4">
-            <h2 class="text-2xl font-semibold text-dark">Chef Five</h2>
-            <p class="text-gray-600 mt-2">
-              Even the all-powerful Pointing has no control about the blind
-              texts. Hi five! dementor
-            </p>
-          </div>
-        </div>
+        <include
+          src="./views/components/card.html"
+          locals='{"image": "./assets/images/nothing.jpg", "title": "Chef Five", "description": "Even the all-powerful Pointing has no control about the blind texts. Hi five! dementor"}'
+        ></include>
         <!-- Card 6 -->
-        <div class="bg-white rounded-lg shadow-md overflow-hidden">
-          <img
-            src="./assets/images/nothing.jpg"
-            alt="Card Image"
-            class="w-full h-64 object-cover"
-          />
-          <div class="p-4">
-            <h2 class="text-2xl font-semibold text-dark">Chef Six</h2>
-            <p class="text-gray-600 mt-2">
-              One day forever a small line of blind text by the name of Lorem
-              Ipsum
-            </p>
-          </div>
-        </div>
+        <include
+          src="./views/components/card.html"
+          locals='{"image": "./assets/images/nothing.jpg", "title": "Chef Six", "description": "One day forever a small line of blind text by the name of Lorem Ipsum"}'
+        ></include>
       </div>
     </main>
     <include src="./views/footer.html"></include>

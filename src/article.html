@@ -55,50 +55,26 @@
       <!-- List Section -->
       <section class="section-lista mb-8">
         <ol class="list-none pl-8 space-y-4">
-          <li>
-            <span
-              class="inline-block border rounded-full border-black text-black w-8 h-8 text-center leading-8"
-              >1</span
-            >
-            <strong>Rapidez</strong>
-            <p>
-              Calienta y cocina los alimentos en una fracción del tiempo que
-              requieren otros métodos.
-            </p>
-          </li>
-          <li>
-            <span
-              class="inline-block border rounded-full border-black text-black w-8 h-8 text-center leading-8"
-              >2</span
-            >
-            <strong>Eficiencia energética</strong>
-            <p>
-              Utiliza menos electricidad en comparación con un horno
-              convencional, lo que se traduce en un ahorro en la factura de luz.
-            </p>
-          </li>
-          <li>
-            <span
-              class="inline-block border rounded-full border-black text-black w-8 h-8 text-center leading-8"
-              >3</span
-            >
-            <strong>Versatilidad</strong>
-            <p>
-              Desde descongelar hasta cocinar platos completos, el microondas
-              puede hacerlo todo.
-            </p>
-          </li>
-          <li>
-            <span
-              class="inline-block border rounded-full border-black text-black w-8 h-8 text-center leading-8"
-              >4</span
-            >
-            <strong>Facilidad de uso</strong>
-            <p>
-              Con solo pulsar un botón, puedes preparar una variedad de platos
-              sin complicaciones.
-            </p>
-          </li>
+          <!-- List Item 1 -->
+          <include
+            src="./views/components/list-item.html"
+            locals='{"number": "1", "title": "Rapidez", "description": "Calienta y cocina los alimentos en una fracción del tiempo que requieren otros métodos."}'
+          ></include>
+          <!-- List Item 2 -->
+          <include
+            src="./views/components/list-item.html"
+            locals='{"number": "2", "title": "Eficiencia energética", "description": "Utiliza menos electricidad en comparación con un horno convencional, lo que se traduce en un ahorro en la factura de luz."}'
+          ></include>
+          <!-- List Item 3 -->
+          <include
+            src="./views/components/list-item.html"
+            locals='{"number": "3", "title": "Versatilidad", "description": "Desde descongelar hasta cocinar platos completos, el microondas puede hacerlo todo."}'
+          ></include>
+          <!-- List Item 4 -->
+          <include
+            src="./views/components/list-item.html"
+            locals='{"number": "4", "title": "Facilidad de uso", "description": "Con solo pulsar un botón, puedes preparar una variedad de platos sin complicaciones."}'
+          ></include>
         </ol>
       </section>
 

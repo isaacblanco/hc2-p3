@@ -494,6 +494,10 @@ img, video {
   padding: 1.5rem;
 }
 
+.p-12 {
+  padding: 3rem;
+}
+
 .px-6 {
   padding-left: 1.5rem;
   padding-right: 1.5rem;
@@ -536,10 +540,6 @@ img, video {
 
 .text-center {
   text-align: center;
-}
-
-.font-titles {
-  font-family: Orbitron, serif;
 }
 
 .text-2xl {
@@ -588,6 +588,11 @@ img, video {
   color: rgb(0 0 0 / var(--tw-text-opacity));
 }
 
+.text-dark {
+  --tw-text-opacity: 1;
+  color: rgb(40 54 24 / var(--tw-text-opacity));
+}
+
 .text-gray-600 {
   --tw-text-opacity: 1;
   color: rgb(75 85 99 / var(--tw-text-opacity));
@@ -598,19 +603,14 @@ img, video {
   color: rgb(31 41 55 / var(--tw-text-opacity));
 }
 
-.text-white {
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
 .text-medium {
   --tw-text-opacity: 1;
   color: rgb(96 108 56 / var(--tw-text-opacity));
 }
 
-.text-dark {
+.text-white {
   --tw-text-opacity: 1;
-  color: rgb(40 54 24 / var(--tw-text-opacity));
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 .shadow-md {
