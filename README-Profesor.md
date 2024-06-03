@@ -12,6 +12,8 @@ Me he basado en la imagen de figma publicada para rehacer los estilos y crear al
 
 Se han utilizado los ficheros compartidos de header y footer.
 
+Solo funcionan los link desde la home: botones grises
+
 ## Paginas recreadas
 
 ### Chefs.html
